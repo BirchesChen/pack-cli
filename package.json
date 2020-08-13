@@ -1,10 +1,11 @@
 {
-  "name": "packservice",
+  "name": "pack-cli",
   "version": "1.0.0",
   "description": "use for pack service",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "main.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
     "shelljs": "^0.8.2"
   },
   "author": "BirchesChen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "keywords": [
+    "auto",
+    "pack"
+  ]
 }
