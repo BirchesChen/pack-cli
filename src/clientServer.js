@@ -1,6 +1,3 @@
-/**
- * Created by kevalin on 2015/4/27.
- */
 var async = require('async');
 var SSH2Utils = require('ssh2-utils');
 var fs = require('fs');
